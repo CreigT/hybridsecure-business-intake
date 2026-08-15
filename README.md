@@ -33,7 +33,7 @@ Environment files are not loaded automatically by the application. Load `.env.lo
 
 See `.env.example`. Required production settings include the Ollama endpoint/model, Firebase client identifiers, Firebase Admin credentials or workload identity, and a random `INTAKE_VERIFICATION_SIGNING_KEY` of at least 32 characters. Never commit credentials or service-account JSON.
 
-The application owns route `/`, API namespace `/api/intake`, audit namespace `business_intake`, and local audit path `logs/business_intake_audit.jsonl`.
+The application owns route `/`, API namespace `/api/inquiries`, audit namespace `hybridsecure_business_intake`, and local audit path `logs/business_intake_audit.jsonl`.
 
 ## Tests
 
