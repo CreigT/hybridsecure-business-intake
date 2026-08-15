@@ -1,0 +1,12 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+logs/*.jsonl
+!logs/.gitkeep
+*service-account*.json
+firebase-admin*.json

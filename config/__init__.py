@@ -1,0 +1,1 @@
+"""HybridSecure Business Intake configuration."""

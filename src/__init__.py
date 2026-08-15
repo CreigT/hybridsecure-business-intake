@@ -1,0 +1,1 @@
+"""Master Hybrid System package."""

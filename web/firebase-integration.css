@@ -1,0 +1,52 @@
+.verification-panel {
+  border-top: 1px solid var(--line);
+  margin-top: 28px;
+  padding-top: 25px;
+}
+
+.verification-panel h3 {
+  color: var(--gold2);
+  font: 400 2rem Georgia, serif;
+  margin: 8px 0;
+}
+
+.verification-panel p { color: var(--muted); }
+
+.verification-email {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text) !important;
+  padding: 10px 12px;
+}
+
+.verification-actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.secondary {
+  background: #ffffff08;
+  border: 1px solid #d5ad5855;
+  color: var(--gold2);
+}
+
+.secondary small {
+  color: var(--muted);
+  display: block;
+  font-weight: 400;
+}
+
+.text-button {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: underline;
+}
+
+.text-button:focus-visible {
+  outline: 3px solid var(--gold2);
+  outline-offset: 3px;
+}

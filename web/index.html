@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HybridSecure Business Intake | Secure AI Operations</title>
+  <meta name="description" content="Securely submit a business inquiry for AI-assisted analysis and a response draft that remains subject to human review.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HybridSecure Business Intake">
+  <meta property="og:description" content="Secure AI Operations for Modern Business—controlled intake, validated analysis, and mandatory human review.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HybridSecure Business Intake">
+  <meta name="twitter:description" content="Secure AI Operations for Modern Business.">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/firebase-integration.css">
+  <script type="module" src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inquiry">Skip to secure inquiry form</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="HybridSecure Business Intake home">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span>HybridSecure <b>Business Intake</b></span>
+      </a>
+      <div class="nav-links">
+        <a href="#process">How it works</a><a href="#security">Security</a><a class="nav-cta" href="#inquiry">Secure inquiry</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="signal"></span> Controlled AI intake</p>
+        <h1>Secure AI Operations<br><span>for Modern Business</span></h1>
+        <p class="lede">HybridSecure securely receives your business inquiry, applies deterministic safeguards, analyzes it with a configured AI provider, and prepares a response for human review before any outside action.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#inquiry">Submit a Secure Inquiry <span aria-hidden="true">→</span></a>
+          <span class="sponsor">Sponsored by <strong>CREIGNIFICENT LLC</strong></span>
+        </div>
+        <ul class="trust-line" aria-label="Core safeguards"><li>Validated input</li><li>Risk classified</li><li>Human reviewed</li></ul>
+      </div>
+
+      <aside class="operations glass reveal" aria-labelledby="operations-title">
+        <div class="panel-head"><div><p class="kicker">Workflow status</p><h2 id="operations-title">Intake Operations</h2></div><span id="overall-status" class="status neutral">Not started</span></div>
+        <ol id="workflow-stages" class="stage-list">
+          <li data-stage="Inquiry Received"><span>01</span><b>Inquiry Received</b><em>Waiting</em></li>
+          <li data-stage="Email Verification"><span>02</span><b>Email Verification</b><em>Waiting</em></li>
+          <li data-stage="Security Check"><span>03</span><b>Security Check</b><em>Waiting</em></li>
+          <li data-stage="AI Analysis"><span>04</span><b>AI Analysis</b><em>Waiting</em></li>
+          <li data-stage="Response Drafted"><span>05</span><b>Response Drafted</b><em>Waiting</em></li>
+          <li data-stage="Human Review"><span>06</span><b>Human Review</b><em>Waiting</em></li>
+          <li data-stage="Audit Logged"><span>07</span><b>Audit Logged</b><em>Waiting</em></li>
+        </ol>
+        <p class="truth-note"><span aria-hidden="true">◇</span> Status changes only after a real workflow response.</p>
+      </aside>
+    </section>
+
+    <section class="statement"><div class="shell statement-inner"><p class="eyebrow">One controlled path</p><h2>Useful intelligence. Guarded execution.</h2><p>The model analyzes and drafts. Deterministic controls classify risk. A person remains responsible for review.</p></div></section>
+
+    <section id="process" class="section shell">
+      <div class="section-heading"><p class="eyebrow">How it works</p><h2>From inquiry to review-ready draft</h2><p>Each submission follows an explicit, auditable path. No hidden automation and no automatic sending.</p></div>
+      <div class="process-grid">
+        <article class="process-card glass"><span>01</span><h3>Receive & validate</h3><p>Required business fields are checked, normalized, and length-limited before processing.</p></article>
+        <article class="process-card glass"><span>02</span><h3>Assess & analyze</h3><p>Deterministic security rules evaluate risk before a configured AI provider creates structured analysis.</p></article>
+        <article class="process-card glass"><span>03</span><h3>Prepare for review</h3><p>The response draft and decision are recorded, then held for human review. Nothing is sent externally.</p></article>
+      </div>
+    </section>
+
+    <section id="security" class="section security-section">
+      <div class="shell security-grid">
+        <div class="section-heading"><p class="eyebrow">Security & trust</p><h2>Security controls surround the AI</h2><p>Customer text is treated as untrusted data. It cannot grant permissions, change policy, bypass review, or trigger external communication.</p></div>
+        <div class="control-grid">
+          <div><span aria-hidden="true">01</span><h3>Input controls</h3><p>Schema validation, sanitation, sensitive-data detection, and request limits.</p></div>
+          <div><span aria-hidden="true">02</span><h3>Risk authority</h3><p>Deterministic LOW–CRITICAL classification overrides model confidence.</p></div>
+          <div><span aria-hidden="true">03</span><h3>Constrained AI</h3><p>Structured output only, validated before it can influence the workflow.</p></div>
+          <div><span aria-hidden="true">04</span><h3>Auditable outcome</h3><p>Security findings and decisions are recorded with sensitive-pattern redaction.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inquiry" class="section shell inquiry-section">
+      <div class="form-intro"><p class="eyebrow">Secure inquiry</p><h2>Tell us what your business needs.</h2><p>Provide enough operational context for a useful assessment. The system will prepare a draft for human review, not send a message.</p><div class="privacy-card"><h3>Data-use notice</h3><p>Your inquiry is used to validate the request, assess security risk, generate AI-assisted analysis when configured, prepare a response draft, and create an audit record. Do not include information that is not needed for this purpose.</p></div></div>
+
+      <div class="form-panel glass">
+        <form id="intake-form" novalidate>
+          <div id="form-alert" class="form-alert" role="alert" aria-live="polite" hidden></div>
+          <div class="field-row">
+            <label>Full Name <span>*</span><input name="full_name" autocomplete="name" minlength="2" maxlength="100" required></label>
+            <label>Email Address <span>*</span><input name="email" type="email" autocomplete="email" maxlength="320" required></label>
+          </div>
+          <div class="field-row">
+            <label>Company <span>*</span><input name="company" autocomplete="organization" minlength="2" maxlength="150" required></label>
+            <label>Phone Number <small>Optional</small><input name="phone" type="tel" autocomplete="tel" maxlength="30"></label>
+          </div>
+          <label>Service Needed <span>*</span><select name="service_needed" required><option value="">Select a service</option><option>AI Business Automation</option><option>Cybersecurity Operations</option><option>Secure Systems Design</option><option>Workflow Assessment</option><option>Other Business Need</option></select></label>
+          <label>Message / Details <span>*</span><textarea name="message" minlength="20" maxlength="4000" rows="7" required aria-describedby="message-note"></textarea></label>
+          <div id="message-note" class="warning"><strong>Keep sensitive data out.</strong> Do not submit passwords, payment card information, Social Security numbers, authentication tokens, or other highly sensitive information.</div>
+          <label class="consent"><input type="checkbox" name="acknowledgement" required><span>I understand this creates a review draft and does not send an external communication.</span></label>
+          <button class="button primary submit" type="submit">Submit Secure Inquiry <span aria-hidden="true">→</span></button>
+        </form>
+        <section id="verification-panel" class="verification-panel" aria-live="polite" hidden>
+          <p class="eyebrow">Email verification pending</p>
+          <h3>Check Your Email</h3>
+          <p>We sent a verification message to the email address you provided.</p>
+          <p>After verification, return to continue processing your inquiry.</p>
+          <p id="verification-email" class="verification-email"></p>
+          <div id="verification-alert" class="form-alert" role="alert" hidden></div>
+          <div class="verification-actions">
+            <button id="resend-verification" class="button secondary" type="button">Resend verification</button>
+            <button id="google-verification" class="button secondary" type="button">Verify with Google <small>Optional fast verification</small></button>
+            <button id="change-email" class="text-button" type="button">Change email</button>
+          </div>
+          <p class="truth-note">No AI analysis or response drafting occurs until the backend verifies your Firebase identity.</p>
+        </section>
+        <section id="result-panel" class="result-panel" aria-live="polite" hidden><p class="eyebrow">Workflow result</p><h3 id="result-state"></h3><p id="result-message"></p><dl id="result-details"></dl></section>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-inner"><div><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">H</span><span>HybridSecure <b>Business Intake</b></span></a><p>Secure AI Operations for Modern Business</p></div><div class="footer-right"><p>Sponsored by <strong>CREIGNIFICENT LLC</strong></p><p>© 2026 HybridSecure. Human review required.</p></div></div></footer>
+</body>
+</html>
